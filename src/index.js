@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import UserList from "./UserList.js"
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import UserList from "./UserList.js";
 
 ReactDOM.render(
   <React.StrictMode>
-  <UserList />
+    <UserList />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
